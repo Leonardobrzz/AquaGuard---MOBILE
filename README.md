@@ -18,7 +18,7 @@
 ---
 
 <p align="center">
-  <img src="app.jpg" alt="AquaGuard App" width="600">
+  <img src="app.png" alt="AquaGuard App" width="600">
 </p>
 
 ---
