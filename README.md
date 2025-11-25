@@ -9,13 +9,17 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-%236DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
 [![React Native](https://img.shields.io/badge/React%20Native-Expo-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)](https://expo.dev/)
 
-<img src="app.jpg" alt="AquaGuard App" width="800"/>
-
 **Monitoramento em tempo real · Análise de consumo · Alertas inteligentes**
 
 [Características](#-características-principais) • [Tecnologias](#-tecnologias) • [Instalação](#-instalação) • [API](#-api-endpoints) • [Autores](#-autores)
 
 </div>
+
+---
+
+<p align="center">
+  <img src="app.jpg" alt="AquaGuard App" width="600">
+</p>
 
 ---
 
