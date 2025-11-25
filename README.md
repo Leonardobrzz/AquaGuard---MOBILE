@@ -9,7 +9,7 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-%236DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
 [![React Native](https://img.shields.io/badge/React%20Native-Expo-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)](https://expo.dev/)
 
-<img src="../app.jpg" alt="AquaGuard App" width="800"/>
+<img src="app.jpg" alt="AquaGuard App" width="800"/>
 
 **Monitoramento em tempo real · Análise de consumo · Alertas inteligentes**
 
@@ -227,48 +227,7 @@ export const API_BASE_URL = 'http://SEU-IP:8080/api/v1';
 
 ---
 
-## 📂 Estrutura do Projeto
 
-```
-AquaGuard/
-├── aquaguard-api/              # Backend Spring Boot
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/aqua/guard/
-│   │   │   │   ├── auth/       # Autenticação e segurança
-│   │   │   │   ├── caixa/      # Gestão de caixas d'água
-│   │   │   │   ├── leitura/    # Registro de leituras
-│   │   │   │   ├── user/       # Gestão de usuários
-│   │   │   │   └── core/       # Configurações e utilidades
-│   │   │   └── resources/
-│   │   │       ├── application.yml
-│   │   │       ├── application-dev.yml
-│   │   │       └── db/migration/    # Scripts Flyway
-│   │   └── test/
-│   ├── target/
-│   └── pom.xml
-│
-├── aquaguard-mobile-new/       # App Mobile React Native
-│   ├── app/
-│   │   ├── (auth)/             # Telas de autenticação
-│   │   ├── (tabs)/             # Telas principais
-│   │   │   ├── index.tsx       # Dashboard
-│   │   │   ├── tanks.tsx       # Gerenciar caixas
-│   │   │   ├── analytics.tsx   # Análises
-│   │   │   └── profile/        # Perfil do usuário
-│   │   ├── edit-profile.tsx
-│   │   ├── change-password.tsx
-│   │   └── change-email.tsx
-│   ├── services/               # Serviços da API
-│   ├── hooks/                  # React hooks customizados
-│   ├── assets/
-│   ├── package.json
-│   └── app.json
-│
-└── README.md
-```
-
----
 
 ## 🔒 Segurança
 
@@ -297,32 +256,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-## 👥 Autores
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/gabrielbmonteiro">
-        <img src="https://github.com/gabrielbmonteiro.png" width="100px;" alt="Gabriel Batista Monteiro"/><br>
-        <sub>
-          <b>Gabriel Batista Monteiro</b>
-        </sub>
-      </a>
-      <br>
-      <sub>Backend & Prototipação</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Leonardobrzz">
-        <img src="https://github.com/Leonardobrzz.png" width="100px;" alt="Leonardo Alves Braz"/><br>
-        <sub>
-          <b>Leonardo Alves Braz</b>
-        </sub>
-      </a>
-      <br>
-      <sub>Frontend & Embarcado</sub>
-    </td>
-  </tr>
-</table>
 
 ---
 
@@ -333,21 +266,3 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 - [Documentação da API](http://localhost:8080/swagger-ui.html) *(quando rodando localmente)*
 
 ---
-
-## 💬 Suporte
-
-Se você tiver alguma dúvida ou problema, sinta-se à vontade para:
-
-- Abrir uma [Issue](https://github.com/gabrielbmonteiro/AquaGuard/issues)
-- Enviar um email para os autores
-- Contribuir com melhorias via Pull Request
-
----
-
-<div align="center">
-
-**Desenvolvido com 💙 para um futuro mais sustentável**
-
-⭐ Se este projeto te ajudou, considere dar uma estrela!
-
-</div>
