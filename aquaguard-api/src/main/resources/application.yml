@@ -1,0 +1,42 @@
+spring:
+  application:
+      name: api
+  datasource:
+      url: jdbc:mysql://localhost:3306/aquaguard_api?useSSL=false&serverTimezone=UTC
+      username: root
+      password: Claudio534@534
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  # Configurações JPA/Hibernate para MySQL - preserva dados existentes e mostra SQL no console
+  jpa:
+    hibernate:
+      ddl-auto: update  # Atualiza estrutura sem apagar dados dos usuários
+    show-sql: true      # Mostra queries SQL no console para debug
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect  # Otimiza para MySQL 8
+  mail:
+    host: live.smtp.mailtrap.io
+    port: 587
+    username: ${MAILTRAP_API_USER}
+    password: ${MAILTRAP_API_TOKEN}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+        transport:
+          protocol: smtp
+
+api:
+  security:
+      token:
+          secret: "AquaGuardLocalSecretKey2024!@#Development"
+          expiration-hours: 2
+  reset-password:
+      token-expiration-minutes: 15
+      code-length: 4
+
+aquaguard:
+  firebase:
+    service-account-file-path: firebase/serviceAccountKey.json
