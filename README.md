@@ -23,6 +23,23 @@
 
 ---
 
+## 📱 Screenshots do Aplicativo
+
+<div align="center">
+  <img src="IMG_1783.PNG" alt="Tela inicial" width="200"/>
+  <img src="IMG_1784.PNG" alt="Login" width="200"/>
+  <img src="IMG_1785.PNG" alt="Dashboard" width="200"/>
+  <img src="IMG_1786.PNG" alt="Caixas d'água" width="200"/>
+</div>
+
+<div align="center">
+  <img src="IMG_1787.PNG" alt="Análise de consumo" width="200"/>
+  <img src="IMG_1788.PNG" alt="Perfil" width="200"/>
+  <img src="IMG_1789.PNG" alt="Configurações" width="200"/>
+</div>
+
+---
+
 ## 📖 Sobre o Projeto
 
 O **AquaGuard** é uma solução completa de IoT para monitoramento inteligente de caixas d'água, oferecendo controle total sobre o consumo de água através de dados precisos e insights acionáveis. O sistema combina hardware embarcado, backend robusto e aplicativo móvel intuitivo para transformar a gestão de água.
